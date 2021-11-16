@@ -1,11 +1,11 @@
-
 .slider-bg1 {
-    background-image: url(../img/HeroImage.jpg) !important;
+  background-image: url(../img/HeroImage.jpg) !important;
 }
 .footer-wrapper {
-background-color: black !important;
-background: black;
+  background-color: black !important;
+  background: black;
 }
 .logo {
-    height: 45px;
+  height: 45px;
+  width: 45px;
 }
