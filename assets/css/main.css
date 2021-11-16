@@ -75,3 +75,20 @@ h3 {
 .card-img {
   align-content: center;
 }
+.ml-22 {
+  padding-top: 15px;
+  margin: auto;
+}
+.card-body {
+  height: 300px;
+}
+.card-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+}
+.hero-cap2 {
+  margin-left: 25px;
+}
