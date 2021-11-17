@@ -240,20 +240,53 @@ ul > li:hover > ul.submenu {
   margin-top: 20px;
 }
 
-#shadow1 {
-  background: #f2be05;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-}
-
 .pera-top {
   margin: 10px;
   padding: 50px;
   max-width: 1000px;
 }
+
+.parent5 {
+    position: relative;
+    margin-top: 280px;
+    text-align: center;
+}
+
+.child-5_1 {
+    text-align: center;
+    margin-top: -80px;
+}
+
+.child-5_2 {
+    text-align: center;
+    margin-top: -50px;;
+}
+
+.slider-area-counseling {
+    background-image: linear-gradient(to left, #f2be05, #f13568, #f2be05);
+ 
+}
+.parent6 {
+    position: relative;
+    text-align: center;
+    margin-top: -55px;
+    
+}
+
+.child-6_1 {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.child-6_2 {
+    text-align: center;
+    margin-top: -60px;
+}
+
+
+/*END Mental Health page*/
+
+
 .parent {
   position: relative;
   margin-top: -39px;
