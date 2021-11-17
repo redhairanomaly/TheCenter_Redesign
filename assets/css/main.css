@@ -1,15 +1,102 @@
-
 .slider-bg1 {
-    background-image: url(../img/HeroImage.jpg) !important;
+  background-image: url(../img/HeroImage.jpg) !important;
 }
 .footer-wrapper {
-background-color: black !important;
-background: black;
+  background-color: black !important;
+  background: black;
 }
 .logo {
+
     height: 45px;
 }
 .main-header,  .header-area ul li a{
 background-color: black !important;
 color: white !important;
+
+  height: 45px;
+}
+.slider-area2 {
+  background-image: url(../img/STI_Test/stdtest.jpg);
+}
+.slider-height2 {
+  height: 603;
+}
+.slider-area3 {
+  background-image: linear-gradient(to left, #f2be05, #f13568, #f2be05);
+}
+.slider-area2 .hero-cap h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-bottom: 21 px;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-bottom: 21 px;
+  text-align: center;
+}
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 1px;
+}
+h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-bottom: 21 px;
+  text-align: left;
+}
+.container {
+  padding-bottom: 15px;
+}
+.btn {
+  background-color: #f23838;
+  background-image: none;
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  transition: 0.6s;
+  box-shadow: 0px 7px 21px 0px rgb(0 0 0 / 12%);
+  background-position: right;
+  background-size: 200%;
+}
+.hero-cap2 p {
+  color: #fff;
+}
+.card {
+  background-color: #f13568;
+  border-radius: 15px;
+}
+.card-img {
+  align-content: center;
+}
+.ml-22 {
+  padding-top: 15px;
+  margin: auto;
+}
+.card-body {
+  height: 300px;
+}
+.card-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+}
+.hero-cap2 {
+  margin-left: 25px;
+
 }
