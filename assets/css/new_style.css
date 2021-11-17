@@ -1,0 +1,108 @@
+:root{
+    --CardRed-Cen-dark: #f76666;
+    --dark-color:#2b2b2b;
+    --CardYellow-Cen: #F2BE05;
+    --CardColor-OrangeCen: #F28705;
+    --CardPink-Cen : #F23568;
+    --CardRed-Cen: #F23838;
+    --CardRed-Cen-dark: #D03030;
+
+}
+.bg-OrangeCen{
+    background-color: var(--CardColor-OrangeCen);
+}
+.bg-PinkCen{
+    background-color: var(--CardPink-Cen);
+}
+.bg-RedCen{
+    background-color: var(--CardRed-Cen);
+}
+.bg-YellowCen{
+    background-color: var(--CardYellow-Cen);
+}
+
+.logo{
+    height: 48px;
+}
+
+.icons img{
+    height: 24px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--CardRed-Cen);
+    border-color: var(--CardRed-Cen);
+}
+
+.btn-primary:hover {
+    background-color: var(--CardRed-Cen-dark);
+    border-color: var(--CardRed-Cen-dark);
+}
+
+.hero{
+    height: calc(100vh - 220px);
+    background-color:var(--dark-color);
+    background: url(../img/hero/home.png) no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.hero .content{
+    background-color: rgba(242, 53, 104, 0.8);
+    padding: 24px;
+    margin-top: 64px;
+}
+
+.hero-over{
+    text-align: center;
+    margin-top: -40px;
+    background-color: white;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    display: inline-block;
+    padding: 12px 44px;
+}
+
+.hero-over .line{
+    height: 20px;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+    margin-top: -20px;
+}
+.card-main{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-top: 12px;
+    color: white;
+}
+
+.section-bg{
+    background-color:var(--dark-color);
+    background: url(../img/bg/section-bg.png) no-repeat;
+    background-size: cover;
+}
+.place-holder{
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    padding: 40px;
+    color: white;
+}
