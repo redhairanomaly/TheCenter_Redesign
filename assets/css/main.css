@@ -12,8 +12,8 @@
 .main-header,  .header-area ul li a{
 background-color: black !important;
 color: white !important;
-
-  height: 45px;
+height: 100px;
+padding-left: 75px;
 }
 .slider-area2 {
   background-image: url(../img/STI_Test/stdtest.jpg);
@@ -61,7 +61,7 @@ h3 {
 .btn {
   background-color: #f23838;
   background-image: none;
-  border: none;
+  border-radius: 10px ;
   text-transform: capitalize;
   cursor: pointer;
   color: #fff;
@@ -71,6 +71,10 @@ h3 {
   box-shadow: 0px 7px 21px 0px rgb(0 0 0 / 12%);
   background-position: right;
   background-size: 200%;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
 }
 .hero-cap2 p {
   color: #fff;
@@ -100,3 +104,87 @@ h3 {
   margin-left: 25px;
 
 }
+.aboutUs{
+  font-weight: bolder;
+  background-color: #f13568 !important;
+}
+.getInvolved{
+  font-weight: bold;
+  background-color: #F2BE05 !important;
+}
+.programs{
+  font-weight: bold;
+  background-color: #F28705 !important;
+}
+.pulse{
+  font-weight: bold;
+  background-color: #F28705 !important;
+}
+
+html {
+  font-family: Poppins;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  font-family: Poppins;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bg-light {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+ul ul.submenu>li>a {
+  padding: 10px;
+  font-size: 14px;
+}
+.dropdown-divider{
+  color: black !important;
+}
+ul>li:hover>ul.submenu {
+  visibility: visible;
+  opacity: 31;
+  top: 100%;
+  color: black !important;
+}
+.main-header .main-menu ul ul.submenu {
+  position: absolute;
+  width: 170px;
+  background: rgba(0,12,32,0.6);
+  left: 0;
+  top: 50%;
+  visibility: visible;
+  opacity: 0;
+  box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+  padding: 17px 0;
+  border-top: 5px solid black;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  transition: .3
+}
+.centerCarousel {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  height: inherit;
+  size-adjust: 50%;
+}
+.header-sticky.sticky-bar {
+  background-color: black;
+}
+.hero-btn {
+  padding: 30px 62px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#scrollUp, #back-top {
+background:  #f13568 !important ;
+}
+

@@ -61,7 +61,7 @@
                                 <ul id="navigation">                                                                                          
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a>
-                                        <ul class="submenu">
+                                        <ul class="submenu aboutUs">
                                             <li><a href="blog.html">Meet The Team</a></li>
                                             <li><a href="blog_details.html">Grantors</a></li>
                                             <li><a href="elements.html">Financial Info</a></li>
@@ -69,18 +69,16 @@
                                             <li><a href="elements.html">Learn More</a></li>
                                         </ul>
                                     <li><a href="getinvoled.html">Get Involved</a>
-                                        <ul class="submenu">
+                                        <ul class="submenu getInvolved">
                                             <li><a href="volunteer.html">Volunteer</a></li>
                                             <li><hr class="dropdown-divider"></li>
                                             <li><a href="blog_details.html">Donations</a></li>
                                             <li><hr class="dropdown-divider"></li>
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Donations</a>
-                                                <ul class="dropdown-menu">
+                                           
                                                 <li class=><a href="volunteer.html">Employee Matching</a></li>
                                                 <li><a href="volunteer.html">Donate Qlatinx</a></li>
                                                 <li><a href="volunteer.html">Become a Business Member</a></li>
-                                                </ul>
+                                               
                                             <li><a href="elements.html">More Ways to Give</a></li>
                                             <li><hr class="dropdown-divider"></li>
                                             <ul class="submenu">
@@ -89,8 +87,10 @@
                                                 </ul>
                                         </ul>
                                     <li><a href="stitesting.html">Programs & Services</a>
-                                         <ul class="submenu">
+                                         <ul class="submenu programs">
                                         <li><a href="stitesting.html">Health Services</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a href="mentalhealth.html">Mental Health Counseling</a></li>
                                         <li><hr class="dropdown-divider"></li>
                                         <ul class="submenu">
                                             <li><a href="volunteer.html">Mental Health Counseling</a></li>
@@ -122,7 +122,7 @@
                                         <li><hr class="dropdown-divider"></li>
 
                                             <li><a href="volunteer.html">David Bohentt Center</a></li>
-                                            <li><a href="volunteer.html">Immigratiob Center</a></li>
+                                            <li><a href="volunteer.html">Immigration Center</a></li>
                                             <li><a href="volunteer.html">Notary Public</a></li>
                                             <li><a href="volunteer.html">CFGALLA Legal Clinic Intake Form</a></li>
                                             <li><hr class="dropdown-divider"></li>
@@ -190,13 +190,21 @@
                        <div class="single-footer-caption mb-50">
                            <div class="footer-tittle">
                                <h4>Join Our NewsLetter</h4>
-                               <ul>
-                                   <li><a href="#">Design & creatives</a></li>
-                                   <li><a href="#">Telecommunication</a></li>
-                                   <li><a href="#">Restaurant</a></li>
-                                   <li><a href="#">Programing</a></li>
-                                   <li><a href="#">Architecture</a></li>
-                               </ul>
+                               <div class="form-floating mb-3">
+                                <input class="form-control" type="text" placeholder="First Name" aria-label="First Name">
+                                <label for="floatingInput">First Name</label>
+                              </div>
+                              <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Last Name">
+                                <label for="floatingPassword">Last Name</label>
+                              </div>
+                              <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Email Address">
+                                <label for="floatingPassword">Email address</label>
+                              </div>
+                               
+                                <button type="submit" class="btn btn-primary">Sign Up!</button>
+                              </form>
                            </div>
                        </div>
                    </div>
