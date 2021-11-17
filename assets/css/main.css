@@ -1,6 +1,7 @@
 .slider-bg1 {
   background-image: url(../img/HeroImage.jpg) !important;
 }
+
 .footer-wrapper {
   background-color: black !important;
   background: black;
@@ -16,10 +17,21 @@
   padding-left: 75px;
 }
 .slider-area2 {
-  background-image: url(../img/STI_Test/stdtest.jpg);
+  background-image: url(../img/std.png);
+  background-size: initial;
+ 
 }
 .slider-height2 {
-  height: 603;
+  height: 350px;
+}
+.slider-height4 {
+  height: 650px;
+}
+.slider-area4 {
+  background-image: url(../img/5hero.png);
+  background-repeat: no-repeat;
+  height: initial;
+
 }
 .slider-area3 {
   background-image: linear-gradient(to left, #f2be05, #f13568, #f2be05);
@@ -30,7 +42,7 @@
   font-weight: 800;
   text-transform: capitalize;
   line-height: 1;
-  margin-bottom: 21 px;
+  margin-bottom: 0px;
   text-align: center;
 }
 h2 {
@@ -39,12 +51,13 @@ h2 {
   font-weight: 800;
   text-transform: capitalize;
   line-height: 1;
-  margin-bottom: 21 px;
+  margin-bottom: 21px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 1px;
+  padding-top: 50px;
+  padding-bottom: -1px;
 }
 h3 {
   color: white;
@@ -52,8 +65,9 @@ h3 {
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1;
-  margin-bottom: 21 px;
+  margin-bottom: 21px;
   text-align: left;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   padding-bottom: 15px;
@@ -78,6 +92,11 @@ h3 {
 }
 .hero-cap2 p {
   color: #fff;
+}
+.hero-cap3 p {
+  color: rgb(31, 30, 30);
+  font-size: 18px;
+  font-family: "Poppins",sans-serif;
 }
 .card {
   background-color: #f13568;
@@ -117,16 +136,16 @@ h3 {
 }
 .pulse {
   font-weight: bold;
-  background-color: #f28705 !important;
+  background-color: #f20505 !important;
 }
 
 html {
-  font-family: Poppins;
+  font-family: Poppins !important;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 body {
-  font-family: Poppins;
+  font-family: Poppins !important;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100;
   font-size: 18px;
@@ -176,12 +195,18 @@ ul > li:hover > ul.submenu {
   background-color: black;
 }
 .hero-btn {
-  padding: 30px 62px;
+  padding: 25px 50px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  color: #f20505;
+  border-color: #f20505;
+  border-width: thick;
+  font-weight: 1000;
+  font-size: 18px;
+ 
 }
 #scrollUp,
 #back-top {
@@ -193,6 +218,7 @@ ul > li:hover > ul.submenu {
   background-image: url(../img/mentalhealth/mentalhealth.png);
   background: cover;
   max-width: 1440px;
+  background-repeat: none;
 }
 
 .hero-capMH {
@@ -230,17 +256,29 @@ ul > li:hover > ul.submenu {
 }
 .parent {
   position: relative;
-  margin-top: -49px;
+  margin-top: -39px;
   text-align: center;
+ 
+
+}
+.parent1 {
+  position: static;
+  margin-top: -2px;
+  text-align: center;
+ 
+
 }
 .child-1 {
   text-align: center;
   margin-top: -68px;
+
+ 
 }
 
 .child-2 {
   text-align: center;
   margin-top: -60px;
+ 
 }
 
 .parent2 {
@@ -262,4 +300,21 @@ ul > li:hover > ul.submenu {
 .carousel-slide {
   padding-left: 250px;
   padding-right: 250px;
+}
+h1 {
+  font-family: "Poppins",sans-serif;
+    color: #080808;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+}
+.pt80 {
+  justify-content: left;
+  padding-bottom: 300px;
+  padding-left: 300px;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
 }
