@@ -98,9 +98,18 @@ h3 {
   font-size: 18px;
   font-family: "Poppins",sans-serif;
 }
-.card {
+.hero-cap4 p {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins",sans-serif;
+}
+.card1 {
   background-color: #f13568;
   border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 .card-img {
   align-content: center;
@@ -112,15 +121,19 @@ h3 {
 .card-body {
   height: 300px;
 }
-.card-text {
+.card-text1 {
   color: white;
   font-size: 20px;
   font-weight: 200;
   text-align: center;
   margin: auto;
+  padding: 20px;
 }
 .hero-cap2 {
   margin-left: 25px;
+}
+.hero-cap3 {
+  margin-right: 25px;
 }
 .aboutUs {
   font-weight: bolder;
@@ -222,7 +235,7 @@ ul > li:hover > ul.submenu {
 }
 
 .hero-capMH {
-  background: white;
+ 
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -242,8 +255,9 @@ ul > li:hover > ul.submenu {
 
 .pera-top {
   margin: 10px;
-  padding: 50px;
-  max-width: 1000px;
+  padding: 100px;
+ 
+  justify-items: center;
 }
 
 .parent5 {
@@ -347,7 +361,30 @@ h1 {
   padding-bottom: 300px;
   padding-left: 300px;
 }
+.pt90{
+  justify-content: left;
+  padding-bottom: 70px;
+  padding-left: 825px;
+  padding-right: -10px;
+
+}
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
+  justify-content: inherit;
+ 
+}
+.container1 {
+ padding: 0px;
+  
+}
+.img {
+  vertical-align: center;
+  align-content: left;
+  padding: 10px 10px 10px 10 px;
+  height: 100px !important;
+  max-width: -200px !important;
+}
+.col {
+  padding-bottom: 100px !important;
 }
