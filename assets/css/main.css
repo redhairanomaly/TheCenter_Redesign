@@ -1,4 +1,4 @@
-.slider-bg1 {
+z.slider-bg1 {
   background-image: url(../img/HeroImage.jpg) !important;
 }
 
@@ -270,11 +270,10 @@ ul > li:hover > ul.submenu {
     position: relative;
     text-align: center;
     margin-top: -55px;
-    
 }
 
 .child-6_1 {
-    text-align: center;
+    text-align: cente;
     margin-top: -50px;
 }
 
