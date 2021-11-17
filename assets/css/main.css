@@ -6,14 +6,14 @@
   background: black;
 }
 .logo {
-
-    height: 45px;
+  height: 45px;
 }
-.main-header,  .header-area ul li a{
-background-color: black !important;
-color: white !important;
-height: 100px;
-padding-left: 75px;
+.main-header,
+.header-area ul li a {
+  background-color: black !important;
+  color: white !important;
+  height: 100px;
+  padding-left: 75px;
 }
 .slider-area2 {
   background-image: url(../img/STI_Test/stdtest.jpg);
@@ -61,7 +61,7 @@ h3 {
 .btn {
   background-color: #f23838;
   background-image: none;
-  border-radius: 10px ;
+  border-radius: 10px;
   text-transform: capitalize;
   cursor: pointer;
   color: #fff;
@@ -71,10 +71,10 @@ h3 {
   box-shadow: 0px 7px 21px 0px rgb(0 0 0 / 12%);
   background-position: right;
   background-size: 200%;
-  -webkit-border-radius: 10px ;
-  -moz-border-radius: 10px ;
-  -ms-border-radius: 10px ;
-  -o-border-radius: 10px ;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .hero-cap2 p {
   color: #fff;
@@ -102,23 +102,22 @@ h3 {
 }
 .hero-cap2 {
   margin-left: 25px;
-
 }
-.aboutUs{
+.aboutUs {
   font-weight: bolder;
   background-color: #f13568 !important;
 }
-.getInvolved{
+.getInvolved {
   font-weight: bold;
-  background-color: #F2BE05 !important;
+  background-color: #f2be05 !important;
 }
-.programs{
+.programs {
   font-weight: bold;
-  background-color: #F28705 !important;
+  background-color: #f28705 !important;
 }
-.pulse{
+.pulse {
   font-weight: bold;
-  background-color: #F28705 !important;
+  background-color: #f28705 !important;
 }
 
 html {
@@ -137,14 +136,14 @@ body {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-ul ul.submenu>li>a {
+ul ul.submenu > li > a {
   padding: 10px;
   font-size: 14px;
 }
-.dropdown-divider{
+.dropdown-divider {
   color: black !important;
 }
-ul>li:hover>ul.submenu {
+ul > li:hover > ul.submenu {
   visibility: visible;
   opacity: 31;
   top: 100%;
@@ -153,7 +152,7 @@ ul>li:hover>ul.submenu {
 .main-header .main-menu ul ul.submenu {
   position: absolute;
   width: 170px;
-  background: rgba(0,12,32,0.6);
+  background: rgba(0, 12, 32, 0.6);
   left: 0;
   top: 50%;
   visibility: visible;
@@ -161,10 +160,10 @@ ul>li:hover>ul.submenu {
   box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
   padding: 17px 0;
   border-top: 5px solid black;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -o-transition: .3s;
-  transition: .3
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3;
 }
 .centerCarousel {
   padding-left: 75px;
@@ -184,47 +183,83 @@ ul>li:hover>ul.submenu {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-#scrollUp, #back-top {
-background:  #f13568 !important ;
+#scrollUp,
+#back-top {
+  background: #f13568 !important ;
 }
 /*Mental Health Page*/
 
 .slider-areaMH {
-    background-image: url(../img/mentalhealth/mentalhealth.png);
-    background: cover;
-    max-width: 1440px;
+  background-image: url(../img/mentalhealth/mentalhealth.png);
+  background: cover;
+  max-width: 1440px;
 }
 
-.hero-capMH{
-    background: white;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    max-width: 450px;
-    max-height: 500px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-top: 330px;
+.hero-capMH {
+  background: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  max-width: 450px;
+  max-height: 500px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 330px;
 }
 
 #mh-top-h2 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #shadow1 {
-    background: #F2BE05;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+  background: #f2be05;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 .pera-top {
-    margin: 10px;
-    padding: 50px;
-    max-width: 1000px;
+  margin: 10px;
+  padding: 50px;
+  max-width: 1000px;
+}
+.parent {
+  position: relative;
+  margin-top: -49px;
+  text-align: center;
+}
+.child-1 {
+  text-align: center;
+  margin-top: -68px;
+}
+
+.child-2 {
+  text-align: center;
+  margin-top: -60px;
+}
+
+.parent2 {
+  position: relative;
+  margin-top: -101px;
+  text-align: center;
+}
+.parent3 {
+  position: relative;
+  margin-top: -28px;
+  text-align: center;
+}
+.parent4 {
+  position: relative;
+  margin-top: -25px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.carousel-slide {
+  padding-left: 250px;
+  padding-right: 250px;
 }
