@@ -236,6 +236,27 @@ ul > li:hover > ul.submenu {
     margin-top: -50px;;
 }
 
+.slider-area-counseling {
+    background-image: linear-gradient(to left, #f2be05, #f13568, #f2be05);
+ 
+}
+.parent6 {
+    position: relative;
+    text-align: center;
+    margin-top: -55px;
+    
+}
+
+.child-6_1 {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.child-6_2 {
+    text-align: center;
+    margin-top: -60px;
+}
+
 
 /*END Mental Health page*/
 
