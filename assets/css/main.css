@@ -18,7 +18,7 @@ z.slider-bg1 {
 }
 .slider-area2 {
   background-image: url(../img/std.png);
-  background-size: initial;
+  background-size: cover;
  
 }
 .slider-height2 {
@@ -287,7 +287,7 @@ ul > li:hover > ul.submenu {
 }
 
 .child-6_1 {
-    text-align: cente;
+    text-align: center;
     margin-top: -50px;
 }
 
@@ -363,7 +363,7 @@ h1 {
 .pt90{
   justify-content: left;
   padding-bottom: 70px;
-  padding-left: 825px;
+  padding-left: 300px;
   padding-right: -10px;
 
 }
@@ -377,13 +377,20 @@ p {
  padding: 0px;
   
 }
-.img {
-  vertical-align: center;
-  align-content: left;
-  padding: 10px 10px 10px 10 px;
-  height: 100px !important;
-  max-width: -200px !important;
+.card {
+  padding: 10px;
 }
-.col {
-  padding-bottom: 100px !important;
+.card-title1{
+  font-size: 18px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.card-text2{
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 16px;
+}
+.carousel-control-prev {
+  visibility: hidden;
+}
+.carousel-control-next:hover{
+  visibility: hidden;
 }
