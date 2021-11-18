@@ -394,3 +394,9 @@ p {
 .carousel-control-next:hover{
   visibility: hidden;
 }
+
+.section-bg{
+  display: flex;
+  padding: 40px 20px;
+  align-items: center;
+}
